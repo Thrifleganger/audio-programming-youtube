@@ -4,8 +4,15 @@ A C++ program to create a sine tone within a WAV file. The program is designed t
 
 Accompanying YouTube video: https://www.youtube.com/watch?v=qqjvB_VxMRM
 
-Running the code: 
+Running the C++ code: 
 ```
 g++ -o wave-file-format main.cpp 
 ./wave-file-format.exe
+```
+
+Also included is `WaveFileFormat.java`, a tiny program which is a Java alternative to C++. It pretty much does the same thing, but had to force the byte ordering to little endian. This might be a problem when running this program to generate a wav file in an OS which has big endian byte ordering.
+
+Running the Java code:
+```
+java WaveFileFormat.java
 ```
