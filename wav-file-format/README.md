@@ -10,7 +10,9 @@ g++ -o wave-file-format main.cpp
 ./wave-file-format.exe
 ```
 
-Also included is `WaveFileFormat.java`, a tiny program which is a Java alternative to C++. It pretty much does the same thing, but had to force the byte ordering to little endian. This might be a problem when running this program to generate a wav file in an OS which has big endian byte ordering.
+Extras: 
+
+- `WaveFileFormat.java` is a tiny program which is a Java alternative to C++. It pretty much does the same thing, but had to force the byte ordering to little endian. This might be a problem when running this program to generate a wav file in an OS which has big endian byte ordering.
 
 Running the Java code:
 ```
